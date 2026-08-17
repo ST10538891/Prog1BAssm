@@ -49,7 +49,7 @@ patients = new ArrayList<>();
 */
 public boolean registerPatient(Patient patient) {
 if (findPatientById(patient.getPatientId()) != null) {
-System.out.println("Error: Patient ID already exists. Registration cancelled.");
+System.out.println("Error: Patient ID has already been made. Registration will be cancelled.");
 return false;
 }
 patients.add(patient);
@@ -58,7 +58,7 @@ return true;
 }
 
 /**
-* Searches for a patient by Patient ID.
+* will be able to Search each patient by there respective id Patient ID.
 */
 public Patient findPatientById(String patientId) {
 for (Patient p : patients) {
