@@ -1,4 +1,4 @@
-# Hospital System - Class List
+# Hospital System 
 
 ## Classes
 
